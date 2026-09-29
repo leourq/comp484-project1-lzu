@@ -1,0 +1,274 @@
+/* general page styles */
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+
+header {
+    background-color: #e3350d;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1 {
+    color: #ffcb05;
+    font-size: 42px;
+    margin: 0;
+    padding: 15px;
+    text-shadow: 2px 2px #2a75bb;
+}
+
+
+/* nav */
+
+nav {
+    background-color: #333333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+
+nav a:hover {
+    background-color: #ffcb05;
+    color: #222222;
+}
+
+
+/* main content */
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+/* pokemon Cards */
+
+.pokemon-card {
+    width: 260px;
+    height: 790px;
+    background-color: #fff4b8;
+    border: 4px solid #ffcb05;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.pikachu-card {
+    height: auto;
+}
+
+.pokemon-card h3 {
+    margin-top: 0;
+}
+
+.pokemon-card ruby {
+    color: red;
+}
+
+.pokemon-card img {
+    margin: 5px 0;
+}
+
+.pokemon-card p {
+    text-align: left;
+}
+.pokemon-card ul {
+    text-align: left;
+}
+
+.pokemon-cards {
+    text-align: center;
+}
+
+.pokemon-cards .pokemon-card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.pokemon-description {
+    height: 165px;
+    margin-bottom: 20px;
+}
+
+/* individual pokemon card colors */
+
+.charizard-card {
+    background-color: #ffe0b2;
+    border-color: #e76f28;
+}
+
+.lucario-card {
+    background-color: #d9efff;
+    border-color: #2a75bb;
+}
+
+.mewtwo-card {
+    background-color: #eadcff;
+    border-color: #8e6bbd;
+}
+
+/* Type Cards */
+
+.type-card {
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    border: 3px solid;
+}
+
+.type-card h3 {
+    text-align: center;
+}
+
+.fire-type {
+    background-color: #ffe0b2;
+    border-color: #e76f28;
+}
+
+.fighting-type {
+    background-color: #f2d0c4;
+    border-color: #a84c32;
+}
+
+.psychic-type {
+    background-color: #eadcff;
+    border-color: #8e6bbd;
+}
+
+/* evolution line */
+
+.evolution-line {
+    text-align: center;
+    padding: 0;
+}
+
+.evolution-line li {
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    min-height: 360px;
+    margin: 8px;
+    padding: 15px;
+    background-color: #ffe0b2;
+    border: 3px solid #e76f28;
+    box-sizing: border-box;
+}
+
+.evolution-line img {
+    width: 230px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.evolution-line p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* headings */
+
+h2 {
+    color: #2a75bb;
+    border-bottom: 3px solid #ffcb05;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #e3350d;
+}
+
+h4 {
+    color: #444444;
+}
+
+/* evolution path */
+
+pre {
+    width: 55%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffe0b2;
+    border: 2px solid #e76f28;
+    text-align: center;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+/* paragraphs */
+
+p {
+    line-height: 1.6;
+}
+
+
+/* images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* lists */
+
+ul,
+ol {
+    line-height: 1.7;
+}
+
+
+/* links inside the main content */
+
+main a {
+    color: #2a75bb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #e3350d;
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 5px;
+}

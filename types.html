@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pokemon Type Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+    <header role="banner">
+        <h1>Pokemon Beginner Guide</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="pokemon.html" title="Pokemon Guide">Pokemon Guide</a></li>
+                <li><a href="types.html" title="Pokemon Types Guide">Type Guide</a></li>
+                <li><a href="evolution.html" title="Pokemon Evolution Guide">Evolution Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main role="main">
+    <article role="article">
+            <section>
+            <h2>Pokemon Type Guide</h2>
+
+            <p>Every Pokemon has at least one type that helps determine its strengths, weaknesses, and the kinds of moves it can use effectively. Some Pokemon have only one type, while others have two types that work together. There are many different Pokemon types, including Fire, Water, Grass, Electric, Fighting, Psychic, and more.</p>
+
+            <p>Understanding type matchups is an important part of Pokemon battles. Certain types have advantages over others, which can make an attack super effective and deal increased damage. Other matchups may be less effective, so learning a Pokemon's type can help you choose better moves and Pokemon during a battle.</p>
+            </section>
+            <section>
+            <h2>Understanding Type Matchups</h2>
+            <p>Type matchups determine how effective one type is against another. For example, Fire-type attacks are super effective against Grass-type Pokemon, while Fire-type Pokemon are weak to Water-type attacks. Pokemon with two types combine characteristics from both types, which can give them different strengths and weaknesses. Below are examples using Fire, Fighting, and Psychic types.</p>
+            
+            <!-- The tabindex attribute controls whether an element can receive keyboard focus. I used tabindex="0" on the type headings so they can be reached using the normal Tab order. -->
+             
+        <div class="type-card fire-type">
+            <h3 tabindex="0">Fire Type</h3>
+            <p>Fire-type Pokemon are known for powerful attacks that use flames and heat. Charizard is an example of a Pokemon with the Fire type, although it is a dual-type Pokemon with both Fire and Flying types. The matchup below represents the Fire type by itself.</p>
+            <h4>Fire Type Matchups</h4>
+            <ul>
+                <li><strong>Super Effective Against:</strong> Grass, Bug, Ice, Steel</li>
+                <li><strong>Weak To:</strong> Water, Ground, Rock</li>
+            </ul>
+        </div>
+        <div class="type-card fighting-type">
+            <h3 tabindex="0">Fighting Type</h3>
+            <p>Fighting-type Pokemon are known for their strength and combat skills. They are often associated with martial arts and physical prowess. Lucario is a dual-type Pokemon with both Fighting and Steel types. The matchup below represents the Fighting type by itself.</p>
+            <h4>Fighting Type Matchups</h4>
+            <ul>
+                <li><strong>Super Effective Against:</strong> Normal, Rock, Steel, Ice, Dark</li>
+                <li><strong>Weak To:</strong> Flying, Psychic, Fairy</li>
+            </ul>
+        </div>
+        <div class="type-card psychic-type"> 
+            <h3 tabindex="0">Psychic Type</h3>
+            <p>Psychic-type Pokemon are known for their mental abilities and psychic powers. They can manipulate the mind and use telekinesis to move objects. Mewtwo is an example of a Psychic-type Pokemon.</p>
+            <h4>Psychic Type Matchups</h4>
+            <ul>
+                <li><strong>Super Effective Against:</strong> Fighting, Poison</li>
+                <li><strong>Weak To:</strong> Bug, Ghost, Dark</li>
+            </ul>
+        </div>
+        </section>
+    </article>
+</main>
+<footer role="contentinfo">
+    <p>Pokemon Beginner Guide</p>
+    <p>Made by Leo Urquilla for COMP 484</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pokemon Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+    <header role="banner">
+        <h1>Pokemon Beginner Guide</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="pokemon.html" title="Pokemon Guide">Pokemon Guide</a></li>
+                <li><a href="types.html" title="Pokemon Types Guide">Type Guide</a></li>
+                <li><a href="evolution.html" title="Pokemon Evolution Guide">Evolution Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main role="main">
+    <article role="article">
+        <section>
+            <h2>Pokemon Guide</h2>
+
+            <p>With over a thousand unique Pokemon to discover, each one has characteristics that make it different. Pokemon can have different types, abilities, stats, and strengths that affect how they perform in battle. Understanding this information can help beginners compare Pokemon and recognize what makes each one useful.</p>
+
+            <p>This page introduces Charizard, Lucario, and Mewtwo as examples. Each Pokemon card shows its type, abilities, and base stats so you can see how these characteristics differ between Pokemon.</p>
+        </section>
+        <section>
+            <h2>Understanding Pokemon Information</h2>
+
+            <h3>Types</h3>
+            <p>A Pokemon's type is one of its most important characteristics. Types help determine a Pokemon's strengths and weaknesses in battle. Some Pokemon have one type, while others have two types.</p>
+
+            <h3>Abilities</h3>
+            <p>Abilities are special effects that Pokemon can have during battle. Different abilities can provide advantages or affect how a Pokemon interacts with certain moves and conditions.</p>
+
+            <h3>Base Stats</h3>
+            <p>Base stats represent a Pokemon's natural strengths in different areas. The six main stats are HP, Attack, Defense, Special Attack, Special Defense, and Speed. Higher values generally indicate that a Pokemon is naturally stronger in that area.</p>
+        </section>
+        <section>
+        <h2>Popular Pokemon</h2>
+        <div class="pokemon-cards">
+        <div class="pokemon-card charizard-card">
+            <h3>
+                <ruby>
+                    Charizard
+                    <rt>リザードン</rt>
+                </ruby>
+            </h3>
+
+            <!-- The loading attribute controls when an image loads. I used loading="lazy" on Pokemon images so they can wait to load until they are needed. -->
+
+            <img src="images/charizard.png" alt="Charizard Pokemon" width="300" loading="lazy"/> 
+
+            <p class="pokemon-description">Charizard is a powerful Fire and Flying-type Pokemon known for its dragon-like appearance and fiery attacks. It is the final evolution of Charmander and has become one of the most recognizable Pokemon in the series.</p>
+
+            <p><strong>Type:</strong> Fire/Flying <br /> <strong>Abilities:</strong> Blaze</p>
+
+            <h4>Base Stats</h4>
+            <ul>
+                
+            <!-- The <data> element connects text with a machine-readable value. I used it in the Pokemon cards to represent each Pokemon's base stats. -->
+
+                <li><strong>HP:</strong> <data value="78">78</data></li>
+                <li><strong>Attack:</strong> <data value="84">84</data></li>
+                <li><strong>Defense:</strong> <data value="78">78</data></li>
+                <li><strong>Sp. Atk:</strong> <data value="109">109</data></li>
+                <li><strong>Sp. Def:</strong> <data value="85">85</data></li>
+                <li><strong>Speed:</strong> <data value="100">100</data></li>
+            </ul>
+        </div>
+        <div class="pokemon-card lucario-card">
+            <h3>
+                <ruby>
+                    Lucario
+                    <rt>ルカリオ</rt>
+                </ruby>
+            </h3>
+            <img src="images/lucario.png" alt="Lucario Pokemon" width="300" loading="lazy"/> 
+
+            <p class="pokemon-description">Lucario is a Fighting and Steel-type Pokemon known for its sleek appearance and powerful aura. The final form of Riolu, it is a fast and powerful Pokemon that can use both physical and special attacks.</p>
+
+            <p><strong>Type:</strong> Fighting/Steel <br /> <strong>Abilities:</strong> Steadfast, Inner Focus</p>
+
+            <h4>Base Stats</h4>
+            <ul>
+                <li><strong>HP:</strong> <data value="70">70</data></li>
+                <li><strong>Attack:</strong> <data value="110">110</data></li>
+                <li><strong>Defense:</strong> <data value="70">70</data></li>
+                <li><strong>Sp. Atk:</strong> <data value="115">115</data></li>
+                <li><strong>Sp. Def:</strong> <data value="70">70</data></li>
+                <li><strong>Speed:</strong> <data value="90">90</data></li>
+            </ul>
+        </div>
+        <div class="pokemon-card mewtwo-card">
+            <h3>
+                <ruby>
+                    Mewtwo
+                    <rt>ミュウツー</rt>
+                </ruby>
+            </h3>
+            <img src="images/mewtwo.png" alt="Mewtwo Pokemon" width="300" loading="lazy"/> 
+            <p class="pokemon-description">Mewtwo is a powerful Psychic-type Legendary Pokemon known for its incredible psychic powers and regenerative abilities. It has some of the highest overall base stats of any Pokemon, making it an extremely powerful battler.</p>
+
+            <p><strong>Type:</strong> Psychic <br /> <strong>Abilities:</strong> Pressure</p>
+
+            <h4>Base Stats</h4>
+            <ul>
+                <li><strong>HP:</strong> <data value="106">106</data></li>
+                <li><strong>Attack:</strong> <data value="110">110</data></li>
+                <li><strong>Defense:</strong> <data value="90">90</data></li>
+                <li><strong>Sp. Atk:</strong> <data value="154">154</data></li>
+                <li><strong>Sp. Def:</strong> <data value="90">90</data></li>
+                <li><strong>Speed:</strong> <data value="130">130</data></li>
+            </ul>
+        </div>
+        </div>
+        </section>
+    </article>
+</main>
+<footer role="contentinfo">
+    <p>Pokemon Beginner Guide</p>
+    <p>Made by Leo Urquilla for COMP 484</p>
+</footer>
+</body>
+</html>

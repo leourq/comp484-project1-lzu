@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pokemon Beginner Guide</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+    <header role="banner">
+        <h1>Pokemon Beginner Guide</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="pokemon.html" title="Pokemon Guide">Pokemon Guide</a></li>
+                <li><a href="types.html" title="Pokemon Types Guide">Type Guide</a></li>
+                <li><a href="evolution.html" title="Pokemon Evolution Guide">Evolution Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main role="main">
+    <article role="article">
+        <section>
+            <h2>Welcome to the Pokemon Beginner Guide</h2>
+
+            <p>Pokemon is one of the most popular franchises in the world, with hundreds of unique Pokemon to discover. While many people recognize famous Pokemon like Pikachu, they may not know exactly how Pokemon types, abilities, stats, and evolution actually work. Learning these basic features can help beginners understand why Pokemon have different strengths and how they are used in battles.</p>
+
+            <p>This beginner guide covers the fundamentals of Pokemon: basic Pokemon information, type matchups, and evolution mechanics. Start with the Pokemon Guide to learn about individual Pokemon, visit the Type Guide to understand strengths and weaknesses, and use the Evolution Guide to learn how Pokemon can change into new forms.</p>
+
+        </section>
+        <section>
+            <h2>Featured Pokemon</h2>
+            <div class="pokemon-card pikachu-card">
+            <h3>
+
+                <!-- The <ruby> element adds small annotations to text. I used it with Pokemon names throughout the website to display their Japanese names above their English names. -->
+                    
+                <ruby>
+                    Pikachu
+                    <rt>ピカチュウ</rt>
+                </ruby>
+            </h3>
+            
+                <!-- The fetchpriority attribute gives the browser a notice about how important a resource is to load. I used fetchpriority="high" on the featured Pikachu image because it is in the Home Page. -->
+
+            <img src="images/pikachu.png" alt="Pikachu Pokemon" width="300" fetchpriority="high" />
+
+            <p>Pikachu is one of the most recognizable Pokemon in the world. Known for its bright yellow fur and electric abilities, Pikachu is an Electric-type Pokemon that can store electricity in its cheeks and release it in powerful attacks.</p>
+
+            <p><strong>Type:</strong> Electric <br /> <strong>Abilities:</strong> Static</p>
+            </div>
+        </section>
+        <section>
+            <h2>Explore the Guide</h2>
+
+            <h3>Pokemon Guide</h3>
+            <p>Discover popular Pokemon and learn about their types, abilities, and characteristics.</p>
+            <p><a href="pokemon.html" title="Explore the Pokemon Guide">Explore Pokemon</a></p>
+
+            <h3>Type Guide</h3>
+            <p>Learn about the different Pokemon types and how they affect strengths, weaknesses, and battles.</p>
+            <p><a href="types.html" title="Explore the Pokemon Type Guide">Explore Types</a></p>
+
+            <h3>Evolution Guide</h3>
+            <p>See how Pokemon evolve and discover how their appearance and abilities can change as they grow.</p>
+            <p><a href="evolution.html" title="Explore the Pokemon Evolution Guide">Explore Evolutions</a></p>
+        </section>
+    </article>
+</main>
+<footer role="contentinfo">
+    <p>Pokemon Beginner Guide</p>
+    <p>Made by Leo Urquilla for COMP 484</p>
+</footer>
+</body>
+</html>
